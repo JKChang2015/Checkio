@@ -2,7 +2,12 @@
 # Created by JKChang
 # 10/04/2018, 09:15
 # Tag:
-# Description: 
+# Description: You are given two strings and you have to find an index of the second occurrence of the second string in
+# the first one.
+#
+# Input: Two strings.
+#
+# Output: Int or None
 
 def second_index(text: str, symbol: str):
     """
