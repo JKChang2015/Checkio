@@ -19,7 +19,10 @@
 # 0 < len(str_number) ≤ 10
 # 2 ≤ radix ≤ 36
 def checkio(str_number, radix):
-    return -1
+    try:
+        return int(str_number, radix)
+    except ValueError:
+        return -1
 
 
 # These "asserts" using only for self-checking and not necessary for auto-testing
