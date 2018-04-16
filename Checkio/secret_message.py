@@ -18,7 +18,7 @@
 
 def find_message(text):
     """Find a secret message"""
-    return ""
+    return ''.join([c for c in text if c.isupper()])
 
 
 if __name__ == '__main__':
