@@ -16,19 +16,6 @@ def is_stressful(subj):
         recoognise stressful subject
     """
     import re
-    #
-    # if subj.isupper(): return True
-    # if subj.endswith('!!!'): return True
-    #
-    # red = ['help', 'asap', 'urgent']
-    #
-    # no_punch = re.sub(r'[^\w\s]', '', subj).lower()
-    # if any(word in no_punch for word in red): return True
-    #
-    # multi = ''.join(set(subj))
-    # if any(word in multi for word in red): return True
-    #
-    # return False
 
     return (subj.isupper() or
             subj.endswith('!!!') or
