@@ -17,8 +17,7 @@ def is_stressful(subj):
     """
     import re
 
-    return (subj.isupper() or
-            subj.endswith('!!!') or
+    return (subj.isupper() or subj.endswith('!!!') or
             any(re.search('+[.!-]*'.join(word), subj.lower())
                 for word in ['help', 'asap', 'urgent']
                 # 'h+[.!-]*e+[.!-]*l+[.!-]*p'
