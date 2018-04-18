@@ -12,6 +12,7 @@
 # A game's result is presented as a list of strings, where "X" and "O" are players' marks and "." is the empty cell.
 # Input: A game result as a list of strings (unicode).
 # Output: "X", "O" or "D" as a string.
+
 def checkio(game_result):
     for row in game_result:
         if row[0] == row[1] == row[2] != ".":
