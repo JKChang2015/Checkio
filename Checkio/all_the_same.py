@@ -11,7 +11,7 @@ from typing import List, Any
 
 
 def all_the_same(elements: List[Any]) -> bool:
-    return len(set(elements)) <=1
+    return len(set(elements)) <= 1
 
 
 if __name__ == '__main__':
@@ -25,7 +25,3 @@ if __name__ == '__main__':
     assert all_the_same([]) == True
     assert all_the_same([1]) == True
     print("Coding complete? Click 'Check' to earn cool rewards!")
-
-
-
-
