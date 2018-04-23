@@ -13,15 +13,24 @@ def long_repeat(line):
     """
         length the longest substring that consists of the same char
     """
+    count = ['', 0]
+    maxCount = 0
+    for i in list(line):
+        if i == count[0]:
+            count[1] += 1
+        else:
+            count[0] = i
+            count[1] = 1
+        if count[1] > maxCount:
+            maxCount = count[1]
 
+    return maxCount
 
 
 if __name__ == '__main__':
-    #These "asserts" using only for self-checking and not necessary for auto-testing
+    # These "asserts" using only for self-checking and not necessary for auto-testing
     assert long_repeat('sdsffffse') == 4, "First"
     assert long_repeat('ddvvrwwwrggg') == 3, "Second"
     assert long_repeat('abababaab') == 2, "Third"
     assert long_repeat('') == 0, "Empty"
     print('"Run" is good. How is "Check"?')
-
-
