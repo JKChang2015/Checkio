@@ -50,4 +50,3 @@ if __name__ == '__main__':
     assert checkio("1") == True, "No brackets, no problem"
     assert checkio("()") == True, "Wrong"
     assert checkio("{") == False, "Wrong"
-
