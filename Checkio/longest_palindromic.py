@@ -28,3 +28,4 @@ if __name__ == '__main__':
     assert longest_palindromic("abc") == "a", "No palindromic"
     assert longest_palindromic("abacada") == "aba", "The First"
     assert longest_palindromic("aaaa") == "aaaa", "The A"
+    assert longest_palindromic("") == "", "Nan"
