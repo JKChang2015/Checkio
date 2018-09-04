@@ -9,11 +9,11 @@
 # For these cases your function should return -1.
 # Input: Two arguments. A number as string and a radix as an integer.
 # Output: The converted number as an integer.
-# checkio("AF", 16) == 175
-# checkio("101", 2) == 5
-# checkio("101", 5) == 26
-# checkio("Z", 36) == 35
-# checkio("AB", 10) == -1
+# most_letter("AF", 16) == 175
+# most_letter("101", 2) == 5
+# most_letter("101", 5) == 26
+# most_letter("Z", 36) == 35
+# most_letter("AB", 10) == -1
 # Precondition:
 # re.match("\A[A-Z0-9]\Z", str_number)
 # 0 < len(str_number) ≤ 10

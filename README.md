@@ -1,3 +1,3 @@
 # Python practices
 ---
-![Alt text](/resources/checkio.jpg)
+![Alt text](/resources/most_letter.jpg)
