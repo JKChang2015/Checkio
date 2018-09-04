@@ -1,3 +1,3 @@
 # Check IO
 ---
-![Alt text](/resources/most_letter.jpg)
+![Alt text](/resources/checkio.jpg)
