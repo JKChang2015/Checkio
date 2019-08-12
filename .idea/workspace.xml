@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ba406c8-a8ef-48a3-a23a-6dcfccd6c3a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Checkio/bird_language.py" beforeDir="false" afterPath="$PROJECT_DIR$/Checkio/bird_language.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +45,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sun_angle">
-    <configuration name="between_markers2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.bird_language">
+    <configuration name="bird_language" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Checkio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,7 +59,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio/between_markers2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio/bird_language.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bird_language" />
         <item itemvalue="Python.sun_angle" />
         <item itemvalue="Python.flatten_a_list" />
         <item itemvalue="Python.sort_array_by_element_frequency" />
         <item itemvalue="Python.time_converter_24_to_12" />
-        <item itemvalue="Python.between_markers2" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +179,10 @@
       <workItem from="1564997998742" duration="3346000" />
       <workItem from="1565008959172" duration="3929000" />
       <workItem from="1565014655689" duration="3542000" />
+      <workItem from="1565028594761" duration="405000" />
+      <workItem from="1565255764432" duration="4000" />
+      <workItem from="1565260423356" duration="1502000" />
+      <workItem from="1565546420589" duration="1628000" />
     </task>
     <servers />
   </component>
@@ -221,6 +226,7 @@
     <SUITE FILE_PATH="coverage/Checkio$count_consecutive_summers.coverage" NAME="count_consecutive_summers Coverage Results" MODIFIED="1565000495461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/Checkio$sun_angle.coverage" NAME="sun_angle Coverage Results" MODIFIED="1565018100903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/Checkio$flatten_a_list.coverage" NAME="flatten_a_list Coverage Results" MODIFIED="1565015453819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
+    <SUITE FILE_PATH="coverage/Checkio$bird_language.coverage" NAME="bird_language Coverage Results" MODIFIED="1565261042001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/Checkio$sort_array_by_element_frequency.coverage" NAME="sort_array_by_element_frequency Coverage Results" MODIFIED="1565012906517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
   </component>
 </project>
