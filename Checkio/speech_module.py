@@ -23,31 +23,25 @@
 
 # Precondition: 0 < number < 1000
 
-TENS = ["", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
-OTHER_NUMS = ["", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve",
-              "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
-
-
 def checkio(number):
     TENS = ["", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
     OTHER_NUMS = ["", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve",
                   "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
-    result = ''
 
-    if number % 100 < 20:
-        result = OTHER_NUMS[number % 100]
-        number /= 100
-    else:
-        result = OTHER_NUMS[number % 10]
-        number /= 10
+    res = ''
 
-        result = TENS[number % 10] + ' ' + result
-        number /= 10
+    if number >= 100 and number < 1000:
+        h = number // 100
+        res = OTHER_NUMS[h] + ' hundred '
+        number %= 100
 
-    if number is 0:
-        return result.strip()
+    if number < 20:
+        return (res + OTHER_NUMS[number]).strip()
 
-    return "".join(OTHER_NUMS[number] + ' hundred ' + result).strip()
+    elif number >= 20 and number < 100:
+        num = [int(x) for x in str(number)]
+        return (res + TENS[num[0]] + ' ' + OTHER_NUMS[num[1]]).strip()
+
 
 
 if __name__ == '__main__':

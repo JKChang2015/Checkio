@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ba406c8-a8ef-48a3-a23a-6dcfccd6c3a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Checkio/speech_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Checkio/speech_module.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,6 +184,8 @@
       <workItem from="1565260423356" duration="1502000" />
       <workItem from="1565546420589" duration="6291000" />
       <workItem from="1565687162575" duration="3646000" />
+      <workItem from="1565790378205" duration="597000" />
+      <workItem from="1565855906546" duration="4050000" />
     </task>
     <servers />
   </component>
@@ -210,6 +213,11 @@
           <line>37</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Checkio/speech_module.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -222,7 +230,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Checkio$between_markers2.coverage" NAME="between_markers2 Coverage Results" MODIFIED="1565002338651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
-    <SUITE FILE_PATH="coverage/Checkio$speech_module.coverage" NAME="speech_module Coverage Results" MODIFIED="1565692674912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
+    <SUITE FILE_PATH="coverage/Checkio$speech_module.coverage" NAME="speech_module Coverage Results" MODIFIED="1565866903952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/Checkio$time_converter_24_to_12.coverage" NAME="time_converter_24_to_12 Coverage Results" MODIFIED="1565009497095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/Checkio$count_consecutive_summers.coverage" NAME="count_consecutive_summers Coverage Results" MODIFIED="1565000495461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/Checkio$sun_angle.coverage" NAME="sun_angle Coverage Results" MODIFIED="1565018100903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
