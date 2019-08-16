@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ba406c8-a8ef-48a3-a23a-6dcfccd6c3a4" name="Default Changelist" comment="" />
+    <list default="true" id="5ba406c8-a8ef-48a3-a23a-6dcfccd6c3a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multicolored_lamp">
+  <component name="RunManager" selected="Python.reverse_roman">
     <configuration name="bird_language" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Checkio" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,6 +89,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="reverse_roman" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Checkio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Checkio" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio/reverse_roman.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="speech_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Checkio" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,28 +125,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio/speech_module.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sun_angle" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Checkio" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Checkio" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checkio/sun_angle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reverse_roman" />
         <item itemvalue="Python.multicolored_lamp" />
         <item itemvalue="Python.time_converter_12_to_24" />
         <item itemvalue="Python.speech_module" />
         <item itemvalue="Python.bird_language" />
-        <item itemvalue="Python.sun_angle" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +184,8 @@
       <workItem from="1565546420589" duration="6291000" />
       <workItem from="1565687162575" duration="3646000" />
       <workItem from="1565790378205" duration="597000" />
-      <workItem from="1565855906546" duration="6599000" />
+      <workItem from="1565855906546" duration="9370000" />
+      <workItem from="1565943194511" duration="1051000" />
     </task>
     <servers />
   </component>
@@ -229,6 +232,7 @@
     <SUITE FILE_PATH="coverage/Checkio$flatten_a_list.coverage" NAME="flatten_a_list Coverage Results" MODIFIED="1565015453819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/Checkio$bird_language.coverage" NAME="bird_language Coverage Results" MODIFIED="1565261042001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/Checkio$sort_array_by_element_frequency.coverage" NAME="sort_array_by_element_frequency Coverage Results" MODIFIED="1565012906517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
+    <SUITE FILE_PATH="coverage/Checkio$reverse_roman.coverage" NAME="reverse_roman Coverage Results" MODIFIED="1565876726135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/Checkio$multicolored_lamp.coverage" NAME="multicolored_lamp Coverage Results" MODIFIED="1565876021826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
     <SUITE FILE_PATH="coverage/Checkio$time_converter_12_to_24.coverage" NAME="time_converter_12_to_24 Coverage Results" MODIFIED="1565868872317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Checkio" />
   </component>
