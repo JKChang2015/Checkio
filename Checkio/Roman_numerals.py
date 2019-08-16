@@ -22,17 +22,26 @@
 # Output: The Roman numeral as a string.
 # Precondition: 0 < number < 4000
 
-def checkio(data):
-    if data <= 1 or data > 4000:
-        raise ('plase input a number between 1 and 3999')
-    #replace this for solution
-    return ""
+def most_letter(data):
+    if data < 1 or data > 4000:
+        return 0
+    num_tuple = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+    roman_tuple = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I']
 
-print(checkio(4001))
-# if __name__ == '__main__':
-#     #These "asserts" using only for self-checking and not necessary for auto-testing
-#     assert most_letter(6) == 'VI', '6'
-#     assert most_letter(76) == 'LXXVI', '76'
-#     assert most_letter(499) == 'CDXCIX', '499'
-#     assert most_letter(3888) == 'MMMDCCCLXXXVIII', '3888'
-#     print('Done! Go Check!')
+    result_str = ''
+
+    for i in range(len(num_tuple)):
+        while data >= num_tuple[i]:
+            data -= num_tuple[i]
+            result_str += roman_tuple[i]
+
+    return result_str
+
+
+if __name__ == '__main__':
+    #These "asserts" using only for self-checking and not necessary for auto-testing
+    assert most_letter(6) == 'VI', '6'
+    assert most_letter(76) == 'LXXVI', '76'
+    assert most_letter(499) == 'CDXCIX', '499'
+    assert most_letter(3888) == 'MMMDCCCLXXXVIII', '3888'
+    print('Done! Go Check!')
