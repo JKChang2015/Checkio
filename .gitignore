@@ -100,3 +100,9 @@ ENV/
 # mypy
 .mypy_cache/
 .DS_Store
+
+#.idea
+.idea/workspace.xml 
+
+#config
+config.py
